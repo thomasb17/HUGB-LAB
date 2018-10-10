@@ -9,6 +9,6 @@ describe("GET /greeting/:name endpoint", () => {
   });  
   it("should return the greeting in a object", async () => {    
   	const res = await request(api).get("/greeting/Diana");    
-  	expect(res.body.greeting).toBe("Hello, Diana!");  
+  	expect(res.body.greeting).toBe("Hello, Diana!!");  
   });
 });
